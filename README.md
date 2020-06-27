@@ -1,7 +1,11 @@
 # Flutter Hackaton(We have,we will)
 ![download](https://user-images.githubusercontent.com/47937749/85920685-3529fe00-b88f-11ea-9d52-8255388f79f6.jpg)
 
-### Saving the planet #Hack20
+# Saving the planet #Hack20 ![download (1)](https://user-images.githubusercontent.com/47937749/85925988-8220cb00-b8b5-11ea-92f3-8b90f53c471e.jpg)
+
+We believe the everyone can save the planet either by reducing any spreading diseses or by following steps or by working on a daily routine therefor we,the flutter devs(seems cool) are bringing an solution to save Earth and we all know that this year we faced many things but do we think that was luck?No,I don't think so that was not luck that was the consequences of all that we did.Yeah we were **Failed** to save Earth.
+
+** A big shout out to all developers working bcz we are next to save Earth **
 # UI
 - Theme(two theme greenish blue for environment and red-black for alert) with dark mode(looks cool)
 - Splash Screen with logo
