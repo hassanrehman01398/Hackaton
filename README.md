@@ -26,6 +26,12 @@ Saving the planet #Hack20
 - [ ] **Can also develop an algorithum which will track person daily contribution in pollution and give him tips how to low pollution daily**
 # Questions/Answer which will detect our percentage in pollution
 - Our daily litter(How one is contibuting in waste i.e 1 bag,2 bag,3 bags)
+- Daily vechile usage (1 ,2,3,4,etc)
+- Packaged spray products (1,2,3 etc)
+- The kitchen stoves we use(Cooking stuff)
+- Smoking or other stuff
+- Plastic Stuff
+
 # Tips to give someone for reducing pollution
 - 
 
