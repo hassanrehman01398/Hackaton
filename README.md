@@ -10,5 +10,5 @@ Saving the planet #Hack20
 - [ ] Covid 19 awareness program and screen test
 - [ ] Notification feature to wear mask in every hour
 - [ ] Recycling awarness program
-- [ ] ### Can also develop an algorithum which will track person daily contribution in pollution and give him tips how to low that
+- [ ] **Can also develop an algorithum which will track person daily contribution in pollution and give him tips how to low pollution daily**
 
