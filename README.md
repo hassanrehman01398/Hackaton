@@ -11,7 +11,7 @@ Saving the planet #Hack20
 - Recycling Card will include nearby dustbin(map) for recycles,purpose of recycling page,recyled materials.
 - Pollution contribution will contain to do activites and then it will process how much you have contributed in pollution.We can work here in two progress like we can ask people 
   their acitivites or we can ask questions and on basis of that we can make a key how much he contribute then saved that data in firebase
-
+- For UI help check this https://github.com/abuanwar072/Covid-19-Flutter-UI
 # Features
 - [ ] Alert integrated with this application
 - [ ] Track location of person and tell him and his latest contacts that that person was outside so that can be aware
