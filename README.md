@@ -36,8 +36,9 @@ tracker will be there too.
 - Plastic Stuff
 
 # Tips to give someone for reducing pollution
-- 
 
+- 
+### Will make this as a plugin 
 # Key
 - Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
 - Italic	* * or _ _	command/control + i	*This text is italicized*	This text is italicized
