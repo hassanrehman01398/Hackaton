@@ -42,6 +42,12 @@ tracker will be there too.
 # Tips to give someone for reducing pollution
 
 - 
+
+# Developers behind this whole idea(Ned all the way)
+### M.Hassan Ur Rehman
+### Huziafa Shuja
+### Taber Bin Zameer
+### Sufyan Ahmad
 # Will make this as a plugin(Our Aim)
 # Key
 - Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
