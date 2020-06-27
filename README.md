@@ -16,7 +16,8 @@ Saving the planet #Hack20
 - For covid 19 tracker https://github.com/lucioeduardo/covid19_tracker
 - For quiz which will generate result how much that person contributed in pollution daily https://github.com/ykhade/quizapp (Should be key for daily).Graph should be from and 
 tracker will be there too.
-- Firebase Messaging stuff
+- Firebase Messaging stuff.
+- https://github.com/marchdev-tk/flutter_google_maps/tree/master/example (for map purpose)
 # Features
 - [ ] Alert integrated with this application
 - [ ] Track location of person and tell him and his latest contacts that that person was outside so that can be aware
