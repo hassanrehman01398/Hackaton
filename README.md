@@ -24,6 +24,10 @@ Saving the planet #Hack20
 - [ ] Notification feature to wear mask in every hour
 - [ ] Recycling awarness program
 - [ ] **Can also develop an algorithum which will track person daily contribution in pollution and give him tips how to low pollution daily**
+# Questions/Answer which will detect our percentage in pollution
+- Our daily litter(How one is contibuting in waste i.e 1 bag,2 bag,3 bags)
+# Tips to give someone for reducing pollution
+- 
 
 # Key
 - Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
