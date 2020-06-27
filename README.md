@@ -37,11 +37,17 @@ tracker will be there too.
 - Packaged spray products (1,2,3 etc)
 - The kitchen stoves we use(Cooking stuff)
 - Smoking or other stuff
-- Plastic Stuff
+- Plastic Stuff (e.g plastic bottles, straws, plastic bags etc.)
+- How much have you recycled (good stuff)
 
 # Tips to give someone for reducing pollution
 
-- 
+- Stop using plastic water bottles, straws and other non recyclable products
+- Use paper bags instead of plastic ones
+- Recycle instead of throwing in trash
+- Use a bicycle or public transport for short commutes
+- Plant trees
+- Invest in solar power and other renewable energy sources
 
 # Developers behind this whole idea(Ned all the way)
 ### M.Hassan Ur Rehman
