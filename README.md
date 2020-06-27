@@ -13,6 +13,7 @@ Saving the planet #Hack20
   their acitivites or we can ask questions and on basis of that we can make a key how much he contribute then saved that data in firebase
 - For UI help check this https://github.com/abuanwar072/Covid-19-Flutter-UI
 - For screen test form https://www.ziauddinhospital.com/corona/
+- For covid 19 tracker https://github.com/lucioeduardo/covid19_tracker
 # Features
 - [ ] Alert integrated with this application
 - [ ] Track location of person and tell him and his latest contacts that that person was outside so that can be aware
