@@ -1,4 +1,4 @@
-# Hackaton
+# Flutter Hackaton(We have,we will)
 Saving the planet #Hack20
 # UI
 - Theme(two theme greenish blue for environment and red-black for alert) with dark mode(looks cool)
