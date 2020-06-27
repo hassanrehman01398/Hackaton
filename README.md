@@ -14,7 +14,7 @@ Saving the planet #Hack20
 - For UI help check this https://github.com/abuanwar072/Covid-19-Flutter-UI
 - For screen test form https://www.ziauddinhospital.com/corona/
 - For covid 19 tracker https://github.com/lucioeduardo/covid19_tracker
-- For quiz which will generate result how much that person contributed in pollution daily https://github.com/ykhade/quizapp(Should be key for daily).Graph should be from and tracker will be there too.
+- For quiz which will generate result how much that person contributed in pollution daily https://github.com/ykhade/quizapp (Should be key for daily).Graph should be from and tracker will be there too.
 # Features
 - [ ] Alert integrated with this application
 - [ ] Track location of person and tell him and his latest contacts that that person was outside so that can be aware
