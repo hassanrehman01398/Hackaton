@@ -1,7 +1,7 @@
 # Flutter Hackaton(We have,we will)
 ![download](https://user-images.githubusercontent.com/47937749/85920685-3529fe00-b88f-11ea-9d52-8255388f79f6.jpg)
 
-Saving the planet #Hack20
+## Saving the planet # Hack20
 # UI
 - Theme(two theme greenish blue for environment and red-black for alert) with dark mode(looks cool)
 - Splash Screen with logo
