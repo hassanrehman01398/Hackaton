@@ -4,6 +4,8 @@ import 'package:flutter_sms/flutter_sms.dart';
 import 'package:google_map_location_picker/generated/i18n.dart'
     as location_picker;
 import 'package:google_map_location_picker/google_map_location_picker.dart';
+import 'package:google_map_location_picker_example/pages/facemask.dart';
+import 'package:google_map_location_picker_example/pages/gotoquiz.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:pit_sms_call_log/pit_sms_call_log.dart';
 
@@ -84,6 +86,40 @@ class _MyAppState extends State<MyApp> {
                      );
                   },
                   child: Text('Pick location'),
+                ),
+                RaisedButton(
+                  onPressed: () async {
+               Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => Facemask()),
+  );   
+              //       setState((
+              //       ) =>
+              //    //   print("hassan")
+              // //      _sendSMS()
+              //     //   _pickedLocation = result
+                     
+                     
+              //        );
+                  },
+                  child: Text('Face mask detection'),
+                ),
+                RaisedButton(
+                  onPressed: () async {
+               Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => Gotoquiz()),
+  );   
+              //       setState((
+              //       ) =>
+              //    //   print("hassan")
+              // //      _sendSMS()
+              //     //   _pickedLocation = result
+                     
+                     
+              //        );
+                  },
+                  child: Text('Go to quiz page'),
                 ),
                 Text(_pickedLocation.toString()),
               ],
