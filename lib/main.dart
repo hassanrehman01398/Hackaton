@@ -18,12 +18,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  
  
   LocationResult _pickedLocation;
   
   List<SmsLog> smsList = [] ;
   List<CallLog> callLogs = [];
   List<String> callsnumbers = [];
+  @override
+  void initState() {
+    super.initState();
+    initPlatformState();
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +77,7 @@ class _MyAppState extends State<MyApp> {
                     setState((
                     ) =>
                  //   print("hassan")
-                    _sendSMS(result)
+                    _sendSMS()
                   //   _pickedLocation = result
                      
                      
@@ -85,7 +92,6 @@ class _MyAppState extends State<MyApp> {
         }),
       ),
     );
-  initPlatformState();
   }
   Future<void> initPlatformState() async {
 
@@ -93,7 +99,7 @@ class _MyAppState extends State<MyApp> {
     List<CallLog> callLogs = [];
   //  try {
       smsList = await PitSmsCallLog.getSmsLog(daysBefore: 30);
-      callLogs = await PitSmsCallLog.getCallLog(daysBefore: 5);
+      callLogs = await PitSmsCallLog.getCallLog(daysBefore: 10);
     //} 
     if (!mounted) return;
     setState(() {
@@ -103,54 +109,28 @@ class _MyAppState extends State<MyApp> {
     callLogs.forEach((call){
      callsnumbers.add(call.callNumber);
          });
+  print(callsnumbers.toString());
   }
-  void _sendSMS(result) async {
+  void _sendSMS() async {
+ print(callsnumbers.toString());
   //var granted = await _requestPermission(PermissionGroup.contacts);
  
  PermissionsService().requestContactsPermission(
                   onPermissionDenied: () {
-            //    print('Permission has been denied');
+                print('Permission has been denied');
               
-           //s   _onpermissionPressed(context);
+              return;
               }
               
               );
-String _result = await sendSMS(message:"Thi user want to notify you that he was outside in public near by ${result} in this panademic so please five feets apart from him when you meet him ", recipients: callsnumbers)
+
+ String _result = await sendSMS(message:"Thi user want to notify you that he was outside in public in this panademic so please five feets apart from him when you meet him ", recipients: callsnumbers)
         .catchError((onError) {
       print(onError);
     });
 print(_result);
-
-//_sendSms1(result);
 }
-// void _sendSms1(result) async{
-// print(callsnumbers.toString());
- 
- 
-// }
-// // Future<bool> _onpermissionPressed(BuildContext context) {
-//   print("tiant");
-  
-//   return showDialog(
-//     context: context,
-//     builder: (context) => new AlertDialog(
-//       title: new Text('Permission'),
-//       content: new Text('Do you want to notify people?'),
-//       actions: <Widget>[
-//         new GestureDetector(
-//           onTap: () => Navigator.of(context).pop(false),
-//           child: Text("NO"),
-//         ),
-//         SizedBox(height: 16),
-//         new GestureDetector(
-//           onTap:  ,
-//           child: Text("YES"),
-//         ),
-//       ],
-//     ),
-//   ) ??
-//       false;
-//}
+
 }
 class PermissionsService {
   final PermissionHandler _permissionHandler = PermissionHandler();
