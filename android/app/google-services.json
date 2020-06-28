@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1023072885592",
+    "firebase_url": "https://map-31a00.firebaseio.com",
+    "project_id": "map-31a00",
+    "storage_bucket": "map-31a00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023072885592:android:434a14b213322c878a632d",
+        "android_client_info": {
+          "package_name": "com.humazed.google_map_location_picker_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023072885592-f6mfr8g80mv864jvn37jfj7kj6h76gfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdynPwusxRGr6CjrUaNhpns5MFWZ3a7qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023072885592-f6mfr8g80mv864jvn37jfj7kj6h76gfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
