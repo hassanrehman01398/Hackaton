@@ -116,7 +116,7 @@ Our main focus behind this application is that we can contribute even a bit in c
   <img src="https://user-images.githubusercontent.com/47937749/86000570-26764f00-ba27-11ea-96ea-a2fbf6bb3712.jpeg" width="300" />
   
 </p>
-# **Thanks for giving us a chance :)** 
+**Thanks for giving us a chance :)** 
 
 
 # Developers behind this whole idea(Ned all the way)
