@@ -73,42 +73,42 @@ tracker will be there too.
 ### 
 
 # Finally what master branch contains
-Hello everyone here are hectos and we are in Hack20 Flutter presenting our idea 'Enviro Safe' in which we had worked since last three days so that we can serve
-this environment by any how.
+**Hello everyone we are Team Hectos and our idea for Flutter Hack 20 is 'Enviro Safe' on which we had been working since last three days so that we can find a solution to environmental problems.
 Our application contains four core features which we think had recently effected our lives either by polluting the environment or by spreading of different diseases or
 by creating this environment unsafe through different acts.
-The core features of our application are 
-- 1) Covid 19 prevention,stats,notifying and Face mask detection
-- 2) Pollution contributer
-- 3) Recycle tips and recycle bins nearby
-- 4) Alert others if you are in danger
-The frameworks and technologies we used in this application are
-- 1) Flutter
-- 2) Firebase
-- 3) Nodejs
-- 4) Custom Api
-- 5) Tflite(facemask model)
-Now come on features
+The core features of our application are **
+1) Covid 19 preventation,stats,notifying and Face mask detection
+2) Pollution contributer
+3) Recycle tips and recycle bins nearby
+4) Alert others if you are in danger
+
+- The frameworks and technologies we used in this application are
+-  1) Flutter
+-  2) Firebase
+-  3) Nodejs
+-  4) Custom Api
+-  5) Tflite(facemask model)
+
+- Now come on features
 - 1)Covid 19:
-This features show stats,prevention methods,diet and help but the most important features in this are "Notifiying people" and "Detection of Facemask".Yeah why 
-detection of facemask.The concept behind this was that we can make a plugin where it auto takes user image by asking him and then again by asking him and notifying other 
-people whether I was wearing mask along with location
+This features show stats,preventation methods,diet and other guides to help you keep yourself from the ongoing pandemic. But the most important features in this is "Notifiying people" and "Detection of Facemask".Yeah why 
+detection of facemask.The concept behind this was that we can make a plugin where it takes user's image automatically with their consent and then notifies other 
+people in his contact list whether they were wearing mask along with locations they've been to.
 
-- 2) Pollution Contributer:
-This is a quiz asking module where user will ask daily in the end of day to answer some questions and this will generate result how much that person contributed 
-in pollution.Yeah the model is hard code behind that but we have a approach to use AI model to generate auto and accurate result.Here we were lacking time but
-yeah we will take this application to local and then to global level.
+-  2) Pollution Contributer:
+This is a quiz asking module where user will be asked daily at the end of day to answer some questions and then this will generate result about how much that person has contributed 
+in pollution.For now, the model is hard coded but we can use this approach to gather the data and use AI model to generate accurate results about their contribution towards the pollution.But as we were lacking time, we
+showed some hard coded data. Though, in future we can see ourselves taking this application to local and then to global level.
 
-- 3)Recycle Tips and Recycle Bins nearby:
-This application will notify people daily tips for recycle and yeah it was our approach to locate nearby dustbins so people can focus more on recycling.
+-  3)Recycle Tips and Recycle Bins nearby:
+This application will notify people daily tips about how they do thier part towards the betterment of the environment whether it is to recycle or changing the materials we use in our daily lives. The more important feature we tried to implement is to locate nearby dustbins or recyle points so people can focus more on recycling.
 
-- 4) Alert:
-This feature is quite new and the concept behind is to save our environment from different crimes especially (harassment).Through this feature one can notify 
-nearby police station,emergency or any humanity based organization for help.
+-  4) Alert:
+This feature maybe quite different but the concept behind is to respond quickly during the times of crisis. As in our country, we don't have a centralized emergency service like 911, so people often times find it difficult to contact the right emergency service quickly among many distributed services. Through this feature one can notify 
+nearby police station,emergency or any humanity based organization for help with just one touch.
 
-Our main focus behind this application is that we can contribute even a bit in creating a save,eco friendly environment so for that we need to believe in that 
-approach which our application presents.
-Thanks for giving us chance. 
+Our main focus behind this application is that we can contribute even a bit in creating a save,eco friendly environment so for that we need to believe that this application is one step to achieve that.
+Thanks for giving us a chance. 
 
 # Key
 - Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
