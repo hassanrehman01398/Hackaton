@@ -20,7 +20,7 @@ We believe the everyone can save the planet either by reducing any spreading dis
 - Recycling Card will include nearby dustbin(map) for recycles,purpose of recycling page,recyled materials.
 - Pollution contribution will contain to do activites and then it will process how much you have contributed in pollution.We can work here in two progress like we can ask people 
   their acitivites or we can ask questions and on basis of that we can make a key how much he contribute then saved that data in firebase
-- For UI help check this https://github.com/abuanwar072/Covid-19-Flutter-UI
+- For full UI help check this https://github.com/abuanwar072/Covid-19-Flutter-UI
 - For screen test form https://www.ziauddinhospital.com/corona/
 - For covid 19 tracker https://github.com/lucioeduardo/covid19_tracker
 - For quiz which will generate result how much that person contributed in pollution daily https://github.com/ykhade/quizapp (Should be key for daily).Graph should be from and 
