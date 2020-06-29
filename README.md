@@ -66,11 +66,6 @@ tracker will be there too.
 ### **WE BELIEVE THAT BY SHOWING PICTURES PEOPLE UNDERSTAND MORE"
 
 
-# Developers behind this whole idea(Ned all the way)
-### M.Hassan Ur Rehman
-### Huziafa Shuja
-### Taber Bin Zameer
-### Sufyan Ahmad
 # Some Important points:
 ### Will make this as a plugin(Our Aim)
 ### Daily notification at night for pollution contribution quiz and tips
@@ -113,14 +108,24 @@ nearby police station,emergency or any humanity based organization for help with
 
 Our main focus behind this application is that we can contribute even a bit in creating a save,eco friendly environment so for that we need to believe that this application is one step to achieve that.
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg" width="250" />
-  <img src="https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg" width="250" /> 
-  <img src="https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg" width="250" />
-  <img src="https://user-images.githubusercontent.com/47937749/86000708-56255700-ba27-11ea-94de-aba94b27dced.jpeg" width="250" />
-  <img src="https://user-images.githubusercontent.com/47937749/86000994-b2887680-ba27-11ea-87c1-76e6f1a3173f.jpeg" width="250" />
-  <img src="https://user-images.githubusercontent.com/47937749/86000570-26764f00-ba27-11ea-96ea-a2fbf6bb3712.jpeg" width="250" />
+  <img src="https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg" width="300" />
+  <img src="https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg" width="300" />
+  <img src="https://user-images.githubusercontent.com/47937749/86000708-56255700-ba27-11ea-94de-aba94b27dced.jpeg" width="300" />
+  <img src="https://user-images.githubusercontent.com/47937749/86000994-b2887680-ba27-11ea-87c1-76e6f1a3173f.jpeg" width="300" />
+  <img src="https://user-images.githubusercontent.com/47937749/86000570-26764f00-ba27-11ea-96ea-a2fbf6bb3712.jpeg" width="300" />
   
 </p>
 # **Thanks for giving us a chance :)** 
 
 
+# Developers behind this whole idea(Ned all the way)
+### M.Hassan Ur Rehman
+<a href="https://www.linkedin.com/in/muhammad-hassan-ur-rehman-32118a13a//">
+         <img alt="Qries" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png"
+         width=150" height="70">
+      </a>
+
+### Huziafa Shuja
+### Taber Bin Zameer
+### Sufyan Ahmad
