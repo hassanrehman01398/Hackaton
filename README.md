@@ -109,7 +109,11 @@ nearby police station,emergency or any humanity based organization for help with
 
 Our main focus behind this application is that we can contribute even a bit in creating a save,eco friendly environment so for that we need to believe that this application is one step to achieve that.
 Thanks for giving us a chance. 
-![WhatsApp Image 2020-06-29 at 16 27 25 (1)](https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg)![WhatsApp Image 2020-06-29 at 16 27 26](https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg)![WhatsApp Image 2020-06-29 at 16 27 26 (1)](https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg)![WhatsApp Image 2020-06-29 at 16 27 25](https://user-images.githubusercontent.com/47937749/85999965-54a75f00-ba26-11ea-864f-23ec73180af0.jpeg)
+<p float="left">
+  <img src="![WhatsApp Image 2020-06-29 at 16 27 25 (1)](https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg)" width="100" />
+  <img src="![WhatsApp Image 2020-06-29 at 16 27 26](https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg)" width="100" /> 
+  <img src="![WhatsApp Image 2020-06-29 at 16 27 26 (1)](https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg)" width="100" />
+</p>
 
 
 
