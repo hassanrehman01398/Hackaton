@@ -122,8 +122,8 @@ Our main focus behind this application is that we can contribute even a bit in c
 # Developers behind this whole idea(Ned all the way)
 ### M.Hassan Ur Rehman
 <a href="https://www.linkedin.com/in/muhammad-hassan-ur-rehman-32118a13a//">
-         <img alt="Qries" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png"
-         width=150" height="70">
+         <img alt="Linkenin" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png"
+         width=70" height="70">
       </a>
 
 ### Huziafa Shuja
