@@ -62,9 +62,9 @@ class Topic {
 
   factory Topic.fromMap(Map data) {
     return Topic(
-      id: data['id'] ?? '',
-      title: data['title'] ?? '',
-      description: data['description'] ?? '',
+      id: data['id'] ?? 'pollution-contribution',
+      title: data['title'] ?? 'pollution-contribution',
+      description: data['description'] ?? 'Generate result that how much you contributed daily in pollution',
       img: data['img'] ?? 'recycle.png',
       quizzes:  (data['quizzes'] as List ?? []).map((v) => Quiz.fromMap(v)).toList(), //data['quizzes'],
     );

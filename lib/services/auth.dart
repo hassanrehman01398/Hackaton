@@ -44,6 +44,7 @@ class AuthService {
 
   Future<void> updateUserData(FirebaseUser user) {
     print("login3");
+    print(user.uid);
     DocumentReference reportRef = _db.collection('reports').document(user.uid);
 
     return reportRef.setData({

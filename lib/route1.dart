@@ -101,7 +101,7 @@ child: Container(
         builder: (BuildContext context, ApplicationState state) {
           debugPrint('Main State :- $state');
           if (state is ApplicationUninitialized) {
-            return SplashScreen();
+           return SplashScreen();
           }
 
           // If the user is logging in to the application for the first time

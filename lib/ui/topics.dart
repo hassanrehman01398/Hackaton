@@ -15,24 +15,27 @@ class TopicsScreen extends StatelessWidget {
         if (snap.hasData) {
           List<Topic> topics = snap.data;
           return Scaffold(
+            backgroundColor: Colors.cyanAccent,
             appBar: AppBar(
-              backgroundColor: Colors.deepPurple,
-              title: Text('Pollution Generator'),
+              backgroundColor: Colors.green,
+              title: Text('Pollu Tracker'),
               actions: [
-                IconButton(
-                  icon: Icon(FontAwesomeIcons.userCircle,
-                      color: Colors.pink[200]),
-                  onPressed: () => Navigator.pushNamed(context, '/profile'),
-                )
+                // IconButton(
+                //   icon: Icon(FontAwesomeIcons.userCircle,
+                //       color: Colors.pink[200]),
+               //   onPressed: () => Navigator.pushNamed(context, '/profile'),
+               // )
               ],
             ),
-            drawer: TopicDrawer(topics: snap.data),
+            // drawer: TopicDrawer(topics: snap.data),
             body: GridView.count(
               primary: false,
-              padding: const EdgeInsets.all(20.0),
+              //padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 20.0),
               crossAxisSpacing: 10.0,
-              crossAxisCount: 2,
+              crossAxisCount: 1,
               children: topics.map((topic) => TopicItem(topic: topic)).toList(),
+           
             ),
        //     bottomNavigationBar: AppBottomNav(),
           );
@@ -50,13 +53,20 @@ class TopicItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //  Navigator.of(context).push(
+    //             MaterialPageRoute(
+    //               builder: (BuildContext context) => TopicScreen(topic: topic),
+    //             ));
     return Container(
       child: Hero(
         tag: topic.img,
         child: Card(
           clipBehavior: Clip.antiAlias,
+          
           child: InkWell(
             onTap: () {
+              print("checi");
+              print(topic);
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => TopicScreen(topic: topic),
@@ -143,6 +153,7 @@ class QuizList extends StatelessWidget {
         margin: EdgeInsets.all(4),
         child: InkWell(
           onTap: () {
+            print("quiz"+quiz.id);
             Navigator.of(context).push(
               MaterialPageRoute(
                 builder: (BuildContext context) => QuizScreen(quizId: quiz.id),

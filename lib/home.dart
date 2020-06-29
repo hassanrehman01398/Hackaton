@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hackathon/route1.dart';
 import 'package:hackathon/stores/statistics/statistics_notifier.dart';
+import 'package:hackathon/ui/gotoquiz.dart';
 import 'package:hackathon/ui/home/home_navigator.dart';
 import 'package:hackathon/ui/home/home_screen.dart';
 import 'package:hackathon/ui/reduce_pullution.dart';
@@ -20,7 +21,7 @@ import 'package:hackathon/polutracker.dart';
 import 'data/repository/base_repository.dart';
 import 'data/repository/user_repository.dart';
 import 'services/auth.dart';
-
+  var user ;
 class home extends StatelessWidget {
   
 const home({Key key}) : super(key: key);
@@ -180,11 +181,20 @@ const home({Key key}) : super(key: key);
                         borderRadius: BorderRadius.circular(30)),
                     elevation: 10.0,
                     child: GestureDetector(
-                      onTap: () => Navigator.push(
+                      onTap: () 
+                      // Navigator.push(
+                      //    context,
+                      //    MaterialPageRoute(
+                      //        builder: (context) => TopicScreen())),
+           async {
+      //    var user = await loginMethod();
+          if (user != null) {
+           Navigator.push(
                          context,
                          MaterialPageRoute(
-                             builder: (context) => TopicScreen())),
-           
+                             builder: (context) => Gotoquiz()));
+          }
+           },
          //   LoginButton(text: 'Continue as Guest', loginMethod: auth.anonLogin),
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.35,
@@ -220,11 +230,15 @@ login() async {
 print("login");
 //             auth.anonLogin;
              
-  final FirebaseAuth _auth = FirebaseAuth.instance;
-         AuthResult auth= await _auth.signInAnonymously();
-    FirebaseUser user =auth.user;
-    
-        print("login1"+user.toString());
+  // final FirebaseAuth _auth = FirebaseAuth.instance;
+  //        AuthResult auth= await _auth.signInAnonymously();
+  //   FirebaseUser user =auth.user;
+      
+      AuthService auth = AuthService();
+    user= await auth.anonLogin();
+         
+      //  },
+      //  print("login1"+user.toString());
       
          //     FirebaseUser user =auth.user;
         //  var user = await loginMethod();
