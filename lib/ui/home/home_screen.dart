@@ -281,6 +281,29 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
 
+                  Row(
+                    children: <Widget>[
+                      // Myth Busters Card
+                      Expanded(
+                        flex: 1,
+                        child: HomeCardWidget(
+                          backgroundColor: AppColors.primaryColor,
+                          title: Strings.notifyTitle,
+                          imagePath: AssetImages.notify,
+                          route: HomeRoutes.notify.name,
+                        ),
+                      ),
+Expanded(
+                        flex: 1,
+                        child: HomeCardWidget(
+                          backgroundColor: AppColors.primaryColor,
+                          title: Strings.maskdetection,
+                          imagePath: AssetImages.mask,
+                          route: HomeRoutes.mask.name,
+                        ),
+                      ),
+                    ],
+                  ),
                   // Sympton Checker Card
                   // GestureDetector(
                   //   onTap: () => HomeNavigator.navigatorKey.currentState

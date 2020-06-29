@@ -1,3 +1,4 @@
+import '../../home.dart';
 import '../../ui/home/test.dart';
 import 'package:flutter/material.dart';
 import '../../constants/colors.dart';
@@ -20,6 +21,9 @@ enum HomeRoutes {
   mythBusters,
   faq,
   information,
+  notify,
+  mask,
+
 }
 
 /// [HomeRoutesDefinitions] to map the appropriate states of [HomeRoutes]
@@ -43,6 +47,12 @@ extension HomeRouteDefinitions on HomeRoutes {
         return '/faq';
       case HomeRoutes.information:
         return '/information';
+     
+      case HomeRoutes.notify:
+        return '/notify';
+      case HomeRoutes.mask:
+        return '/mask';
+      
       default:
         return '/';
     }
@@ -136,16 +146,12 @@ class HomeNavigator extends StatelessWidget {
   Widget build(BuildContext context) {
     // Handle the BackButton for the sub-navigator
     print("hecker");
-    return WillPopScope(
-      onWillPop: () async {
-        if (HomeRouter.routesStack.length == 1) {
-          return true;
-        }
-        HomeRouter.routesStack.removeLast();
-        navigatorKey.currentState.pop();
-        return false;
-      },
-      child: Navigator(
+return WillPopScope(
+    onWillPop:()=>Navigator.push(
+                         context,
+                         MaterialPageRoute(
+                             builder: (context) => home())),
+                                   child: Navigator(
         key: navigatorKey,
         observers: [_heroController],
         initialRoute: HomeRoutes.home.name,

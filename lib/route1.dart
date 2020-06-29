@@ -19,6 +19,7 @@ import 'constants/colors.dart';
 import 'constants/strings.dart';
 import 'data/repository/base_repository.dart';
 import 'data/repository/user_repository.dart';
+import 'home.dart';
 
 /// [SimpleBloocDelegate] handles all the Bloc events delegated by the [BlocSupervisor]
 class SimpleBlocDelegate extends BlocDelegate {
@@ -85,7 +86,13 @@ class Route1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return WillPopScope(
+    onWillPop:()=>Navigator.push(
+                         context,
+                         MaterialPageRoute(
+                             builder: (context) => home())),
+child: Container(
+    child: MaterialApp(
       debugShowCheckedModeBanner: false,
       title: Strings.appName,
       theme: themeData,
@@ -178,6 +185,6 @@ class Route1 extends StatelessWidget {
           );
         },
       ),
-    );
+  )));
   }
 }

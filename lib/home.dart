@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -5,6 +6,8 @@ import 'package:hackathon/route1.dart';
 import 'package:hackathon/stores/statistics/statistics_notifier.dart';
 import 'package:hackathon/ui/home/home_navigator.dart';
 import 'package:hackathon/ui/home/home_screen.dart';
+import 'package:hackathon/ui/reduce_pullution.dart';
+import 'package:hackathon/ui/screens.dart';
 import 'package:hackathon/utils/bloc/application_bloc.dart';
 import 'package:hackathon/utils/bloc/application_events.dart';
 import 'package:hackathon/utils/bloc/application_state.dart';
@@ -12,10 +15,11 @@ import 'package:provider/provider.dart';
 import 'alert.dart';
 import 'package:hackathon/covid.dart';
 import 'package:hackathon/polutracker.dart';
-import 'package:hackathon/recycling.dart';
+
 
 import 'data/repository/base_repository.dart';
 import 'data/repository/user_repository.dart';
+import 'services/auth.dart';
 
 class home extends StatelessWidget {
   
@@ -23,7 +27,7 @@ const home({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-  
+    login();
   final BaseRepository repository = UserRepository();
     return Scaffold(
       body: SingleChildScrollView(
@@ -148,7 +152,7 @@ const home({Key key}) : super(key: key);
                     elevation: 10.0,
                     child: GestureDetector(
                       onTap: () => Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => recycle())),
+                          MaterialPageRoute(builder: (context) => ReducePullution())),
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.35,
                         height: MediaQuery.of(context).size.height * 0.22,
@@ -177,9 +181,11 @@ const home({Key key}) : super(key: key);
                     elevation: 10.0,
                     child: GestureDetector(
                       onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => polutracker())),
+                         context,
+                         MaterialPageRoute(
+                             builder: (context) => TopicScreen())),
+           
+         //   LoginButton(text: 'Continue as Guest', loginMethod: auth.anonLogin),
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.35,
                         height: MediaQuery.of(context).size.height * 0.22,
@@ -209,21 +215,22 @@ const home({Key key}) : super(key: key);
       ),
     );
   }
-  state(){
- print("karma");
+login() async {
+  //AuthService auth = AuthService();  
+print("login");
+//             auth.anonLogin;
+             
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+         AuthResult auth= await _auth.signInAnonymously();
+    FirebaseUser user =auth.user;
+    
+        print("login1"+user.toString());
       
-     //if (state is ApplicationInitialized) {
-       print("karma");
-            return ChangeNotifierProvider<StatisticsChangeNotifier>(
-              create: (BuildContext context) => StatisticsChangeNotifier(
-                userRepository: repository,
-              ),
-              child: Scaffold(
-                body: HomeNavigator(),
-              ),
-            );
-          //}
-  }
+         //     FirebaseUser user =auth.user;
+        //  var user = await loginMethod();
+                    //  if (user != null) {
+       //          }
+}  
 }
 
 class MyClipper extends CustomClipper<Path> {

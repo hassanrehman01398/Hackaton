@@ -52,6 +52,15 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    
+aaptOptions {
+        noCompress 'tflite'
+        noCompress 'lite'
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
 
 flutter {
@@ -64,3 +73,5 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 }
+
+apply plugin: 'com.google.gms.google-services'

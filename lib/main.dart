@@ -36,7 +36,7 @@ class _SplashState extends State<Splash> {
     return Container(
         decoration: BoxDecoration(
           color: Colors.white),
-        child: Image.network('https://raw.githubusercontent.com/hassanrehman01398/Hackaton/master/download.jpg?token=ALGAESJEZ6EFWCSGAUDGKR27AB2NM'),
+        child: Image.network('https://user-images.githubusercontent.com/47937749/85965646-c5268f80-b9d6-11ea-8dc5-a16a1706372a.png'),
     );
   }
 }

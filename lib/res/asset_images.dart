@@ -12,4 +12,6 @@ class AssetImages {
   static const String faq = 'assets/images/faq.png';
   static const String myth = 'assets/images/myth.png';
   static const String symptoms = 'assets/images/symptoms.png';
+  static const String notify = 'assets/images/notify.png';
+    static const String mask = 'assets/images/mask.png';
 }

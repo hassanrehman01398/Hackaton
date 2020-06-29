@@ -28,12 +28,16 @@ class Strings {
   static const statisticsTitle = 'Statistics';
 
   static const preventionTitle = 'Prevention';
+  
+  static const notifyTitle = 'Notify Family';
 
   static const symptomsTitle = 'Symptoms';
 
   static const mythBusterTitle = 'Myth Busters';
 
   static const faqTitle = 'FAQ';
+  
+  static const maskdetection = 'Mask Detect';
 
   static const covidInformationTitle = 'What is Covid-19';
 
