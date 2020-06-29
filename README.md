@@ -8,7 +8,7 @@
 
 # Saving the planet #Hack20
 
-We believe the everyone can save the planet either by reducing any spreading diseases or by following steps or by working on a daily routine therefore we,the flutter devs(seems cool),are bringing an solution to save Earth and we all know that this year we faced many things but do we think that was luck?No,I don't think so that was not luck that was the consequences of all that we did.Yeah we were **Failed** to save Earth.
+We believe the everyone can save the planet either by reducing any spreading diseases or by following steps or by working on a daily routine therefore we,the flutter devs(seems cool),are bringing an solution to save Earth and we all know that this year we faced many things but do we think that was luck?No,I don't think so.That were the consequences of all that we did.Yeah we were **Failed** to save Earth.
 
 ** A big shout out to all developers working bcz we are next to save Earth **
 # UI
