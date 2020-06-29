@@ -112,23 +112,15 @@ This feature maybe quite different but the concept behind is to respond quickly 
 nearby police station,emergency or any humanity based organization for help with just one touch.
 
 Our main focus behind this application is that we can contribute even a bit in creating a save,eco friendly environment so for that we need to believe that this application is one step to achieve that.
-Thanks for giving us a chance. 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg" width="250" />
   <img src="https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg" width="250" /> 
   <img src="https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg" width="250" />
   <img src="https://user-images.githubusercontent.com/47937749/86000708-56255700-ba27-11ea-94de-aba94b27dced.jpeg" width="250" />
-  
+  <img src="https://user-images.githubusercontent.com/47937749/86000994-b2887680-ba27-11ea-87c1-76e6f1a3173f.jpeg" width="250" />
   <img src="https://user-images.githubusercontent.com/47937749/86000570-26764f00-ba27-11ea-96ea-a2fbf6bb3712.jpeg" width="250" />
   
-  
 </p>
+# **Thanks for giving us a chance :)** 
 
-
-# Key
-- Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
-- Italic	* * or _ _	command/control + i	*This text is italicized*	This text is italicized
-- Strikethrough	~~ ~~		~~This was mistaken text~~	This was mistaken text
-- Bold and nested italic	** ** and _ _		**This text is _extremely_ important**	This text is extremely important
-- All bold and italic	*** ***		***All this text is important***	All this text is important
 
