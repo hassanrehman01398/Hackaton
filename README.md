@@ -127,5 +127,19 @@ Our main focus behind this application is that we can contribute even a bit in c
       </a>
 
 ### Huziafa Shuja
+<a href="https://www.linkedin.com/">
+         <img alt="Linkenin" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png"
+         width=70" height="70">
+      </a>
 ### Taber Bin Zameer
+                              
+<a href="https://www.linkedin.com/">
+         <img alt="Linkenin" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png"
+         width=70" height="70">
+      </a>
 ### Sufyan Ahmad
+                              
+<a href="https://www.linkedin.com/">
+         <img alt="Linkenin" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png"
+         width=70" height="70">
+      </a>
