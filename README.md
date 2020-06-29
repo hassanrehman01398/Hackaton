@@ -1,4 +1,4 @@
-# Flutter Hackaton(We have,we will)
+# Hack#20 Flutter
 ![logo](https://user-images.githubusercontent.com/47937749/85965646-c5268f80-b9d6-11ea-8dc5-a16a1706372a.png)
 
 
