@@ -1,5 +1,9 @@
 # Hack#20 Flutter
-![logo](https://user-images.githubusercontent.com/47937749/85965646-c5268f80-b9d6-11ea-8dc5-a16a1706372a.png)
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/47937749/85965646-c5268f80-b9d6-11ea-8dc5-a16a1706372a.png">
+</p>
+
 
 
 # Saving the planet #Hack20
@@ -110,14 +114,14 @@ nearby police station,emergency or any humanity based organization for help with
 Our main focus behind this application is that we can contribute even a bit in creating a save,eco friendly environment so for that we need to believe that this application is one step to achieve that.
 Thanks for giving us a chance. 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg" width="200" />
-  <img src="https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg" width="200" /> 
-  <img src="https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg" width="200" />
-  <img src="https://user-images.githubusercontent.com/47937749/86000708-56255700-ba27-11ea-94de-aba94b27dced.jpeg" width="200" />
+  <img src="https://user-images.githubusercontent.com/47937749/85999956-5113d800-ba26-11ea-9652-e3b488816c3e.jpeg" width="250" />
+  <img src="https://user-images.githubusercontent.com/47937749/85999958-52450500-ba26-11ea-8f98-53c2e18720dd.jpeg" width="250" /> 
+  <img src="https://user-images.githubusercontent.com/47937749/85999962-53763200-ba26-11ea-9c07-900b1d756844.jpeg" width="250" />
+  <img src="https://user-images.githubusercontent.com/47937749/86000708-56255700-ba27-11ea-94de-aba94b27dced.jpeg" width="250" />
   
-</p>
-<p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img src="https://user-images.githubusercontent.com/47937749/86000570-26764f00-ba27-11ea-96ea-a2fbf6bb3712.jpeg" width="250" />
+  
+  
 </p>
 
 
