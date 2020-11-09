@@ -8,9 +8,7 @@
 
 # Saving the planet #Hack20
 
-We believe the everyone can save the planet either by reducing any spreading diseases or by following steps or by working on a daily routine therefore we,the flutter devs, bringing a solution to save Earth and we all know that this year we faced many things but do we think that was luck?No,I don't think so.That were the consequences of all that we did.Yes, we were **Failed** to save Earth.
-
-** A big shout out to all developers working bcz we are next to save Earth **
+We believe the everyone can save the planet either by reducing any spreading diseases or by following steps or by working on a daily routine therefore we,the flutter devs, bringing a solution to save Earth and we all know that this year we faced many things and that all were the consequences of all that we did.Yes, we **Failed** to save Earth.
 # UI
 - Theme(two theme greenish blue for environment and red-black for alert) with dark mode(looks cool)
 - Splash Screen with logo
